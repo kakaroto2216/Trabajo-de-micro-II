@@ -16,3 +16,4 @@ void setup() {
 void loop() {
   // Motor girando continuamente a la izquierda
 }
+
