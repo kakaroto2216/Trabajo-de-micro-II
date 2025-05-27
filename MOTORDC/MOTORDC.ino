@@ -7,11 +7,12 @@ void setup() {
   pinMode(IN2, OUTPUT);
   pinMode(ENA, OUTPUT);
 
-  // Giro hacia la derecha
-  digitalWrite(IN1, HIGH);
-  digitalWrite(IN2, LOW);
+  // Giro hacia la izquierda
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
   analogWrite(ENA, 200); // Ajusta la velocidad (0 a 255)
 }
 
 void loop() {
-  // Motor girando continuamente a la derecha
+  // Motor girando continuamente a la izquierda
+}
